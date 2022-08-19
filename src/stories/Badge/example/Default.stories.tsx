@@ -19,3 +19,13 @@ export const Success = (args: any) => <Badge {...args}>Success</Badge>;
 Success.args = {
   state: "success",
 };
+
+export const Warning = (args: any) => <Badge {...args}>Warning</Badge>;
+Warning.args = {
+  state: "warning",
+};
+
+export const Danger = (args: any) => <Badge {...args}>Danger</Badge>;
+Danger.args = {
+  state: "danger",
+};

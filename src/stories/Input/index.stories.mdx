@@ -1,0 +1,18 @@
+import { Meta, Canvas, Story, Source } from "@storybook/addon-docs";
+import dedent from "ts-dedent";
+
+import "assets/css/index.css";
+
+import Input from "./example/Sample";
+
+<Meta title="Components/Input" />
+
+# Input
+
+A most import component that simply let user interact with the app, [[Default Example](/docs/components-input-example--success)] if you want to see in action
+
+export const Template = (args) => <Input {...args} />;
+
+<Story name="Introduction" args={{}}>
+  {Template.bind({})}
+</Story>

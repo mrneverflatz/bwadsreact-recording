@@ -1,11 +1,11 @@
 import React from "react";
 
-import Badge from "../../../components/Badge";
+import Brand from "../../../components/Brand";
 
 type Props = {};
 
 function Sample({}: Props) {
-  return <Badge state="success">Succes Sample</Badge>;
+  return <Brand className="w-32 h-16" />;
 }
 
 export default Sample;
