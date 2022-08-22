@@ -44,7 +44,7 @@ function FeaturedSection({ number, content, button, badge, image }: Props) {
           </div>
           <div className="absolute rounded-xl bottom-0 right-0 bg-white z-10 transform translate-x-4 translate-y-4 md:translate-x-1/4 xl:translate-x-1/2 xl:translate-y-1/2 p-4 w-56">
             <span className="flex items-center gap-x-2 mb-2">
-              <span className="w-5 h-5 bg-green rounded-full flex items-center justify-center">
+              <span className="w-5 h-5 p-1 bg-green rounded-full flex items-center justify-center">
                 <svg
                   viewBox="0 0 12 8"
                   fill="none"
